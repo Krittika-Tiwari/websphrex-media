@@ -14,9 +14,15 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Montserrat", "system-ui", "sans-serif"],
+        sans: ["\"DM Sans\"", "system-ui", "sans-serif"],
+        display: ["\"DM Sans\"", "system-ui", "sans-serif"],
+        body: ["\"DM Sans\"", "system-ui", "sans-serif"],
       },
       colors: {
+        bone: { DEFAULT: "#F9F8F6", deep: "#F1EEE9" },
+        charcoal: "#1A1A1A",
+        sage: "#C4C5BA",
+        brass: { DEFAULT: "#B79D73", light: "#CDB894" },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

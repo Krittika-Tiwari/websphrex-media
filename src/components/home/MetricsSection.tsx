@@ -54,7 +54,7 @@ const Counter = ({ target, suffix, prefix = "", disableFormat = false }: { targe
 
   return (
     <div ref={ref} className="text-center">
-      <div className="text-4xl md:text-5xl font-bold text-foreground mb-1" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      <div className="text-4xl md:text-5xl font-bold text-foreground mb-1">
         {prefix}{count > 0 ? formatNumber(count) : "0"}{count >= target ? suffix.toLowerCase().replace("k", "") : ""}
       </div>
     </div>
